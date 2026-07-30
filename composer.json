@@ -1,0 +1,16 @@
+{
+    "name": "kaburk/bc-backup",
+    "description": "Automatic backup plugin for baserCMS 5",
+    "homepage": "https://github.com/kaburk/BcBackup",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "ext-zip": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BcBackup\\": "src/"
+        }
+    }
+}

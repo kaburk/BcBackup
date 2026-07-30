@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260">
+  <defs>
+    <style>
+      .nm  { font-family:'Hiragino Sans'; font-weight:800; font-size:27px; letter-spacing:-0.3px; }
+      .jp  { font-family:'Hiragino Sans'; font-weight:600; font-size:13px; fill:#16294D; }
+      .kw  { font-family:'Hiragino Sans'; font-weight:300; font-size:10px; fill:#6B7C93; letter-spacing:0.2px; }
+      .zip { font-family:'Hiragino Sans'; font-weight:800; font-size:15px; fill:#1668C9; letter-spacing:0.5px; }
+    </style>
+    <path id="q" d="M0 7 A7 7 0 0 1 7 0 L40 0 A40 40 0 0 1 0 40 Z"/>
+  </defs>
+
+  <rect width="260" height="260" fill="#FFFFFF"/>
+
+  <!-- ===== 角のオーナメント ===== -->
+  <g>
+    <use href="#q" fill="#E4EFFB" transform="translate(0,0) scale(0.95)"/>
+    <use href="#q" fill="#2FA84F" opacity=".85" transform="translate(50,0) scale(0.4)"/>
+    <use href="#q" fill="#E1F3E4" transform="translate(260,0) rotate(90) scale(0.62)"/>
+    <rect x="243" y="38" width="10" height="10" rx="3" fill="none" stroke="#4E96E5" stroke-width="2.5"/>
+    <use href="#q" fill="#E1F3E4" transform="translate(0,260) rotate(-90) scale(0.66)"/>
+    <rect x="30" y="236" width="9" height="9" rx="2.5" fill="#4E96E5" opacity=".5"/>
+    <use href="#q" fill="#E4EFFB" transform="translate(260,260) rotate(180) scale(1.02)"/>
+    <use href="#q" fill="#2FA84F" opacity=".8" transform="translate(206,260) rotate(180) scale(0.36)"/>
+  </g>
+
+  <!-- ===== イラスト：DB＋ファイル ⇢ アーカイブ（世代管理） ===== -->
+  <!-- 左：DB -->
+  <g>
+    <path d="M34 50 v30 a22 9 0 0 0 44 0 V50 Z" fill="#1668C9"/>
+    <ellipse cx="56" cy="50" rx="22" ry="9" fill="#4E96E5"/>
+    <path d="M34 62 a22 9 0 0 0 44 0" fill="none" stroke="#FFFFFF" stroke-width="2" opacity=".7"/>
+    <path d="M34 73 a22 9 0 0 0 44 0" fill="none" stroke="#FFFFFF" stroke-width="2" opacity=".7"/>
+  </g>
+  <!-- 左：ファイル -->
+  <g>
+    <path d="M33 104 h16 l5 6 h20 a4 4 0 0 1 4 4 v18 a4 4 0 0 1 -4 4 H33 a4 4 0 0 1 -4 -4 v-24 a4 4 0 0 1 4 -4 Z" fill="#2FA84F"/>
+    <rect x="36" y="117" width="34" height="3" rx="1.5" fill="#FFFFFF" opacity=".85"/>
+    <rect x="36" y="124" width="23" height="3" rx="1.5" fill="#FFFFFF" opacity=".85"/>
+  </g>
+
+  <!-- 矢印 -->
+  <path d="M88 90 H112" fill="none" stroke="#4E96E5" stroke-width="3" stroke-dasharray="5 5" stroke-linecap="round"/>
+  <path d="M114 82 L126 90 L114 98 Z" fill="#1668C9"/>
+
+  <!-- 右：世代（背面カード） -->
+  <rect x="150" y="42" width="66" height="66" rx="8" fill="#E4EFFB"/>
+  <rect x="144" y="50" width="66" height="66" rx="8" fill="#CFE2F8"/>
+  <!-- 右：アーカイブ -->
+  <g>
+    <rect x="138" y="58" width="66" height="66" rx="8" fill="#FFFFFF" stroke="#1668C9" stroke-width="3"/>
+    <path d="M138 66 a8 8 0 0 1 8 -8 h50 a8 8 0 0 1 8 8 v13 H138 Z" fill="#1668C9"/>
+    <rect x="159" y="67" width="24" height="5" rx="2.5" fill="#FFFFFF" opacity=".85"/>
+    <text class="zip" x="171" y="105" text-anchor="middle">ZIP</text>
+  </g>
+  <!-- 時計バッジ（定期実行） -->
+  <g>
+    <circle cx="211" cy="120" r="16" fill="#FFFFFF"/>
+    <circle cx="211" cy="120" r="13" fill="#2FA84F"/>
+    <path d="M211 113 v8 h6" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+
+  <!-- ===== テキスト ===== -->
+  <text class="nm" x="130" y="176" text-anchor="middle"><tspan fill="#1668C9">Bc</tspan><tspan fill="#16294D">Backup</tspan></text>
+  <text class="jp" x="130" y="199" text-anchor="middle">自動バックアッププラグイン</text>
+  <text class="kw" x="130" y="218" text-anchor="middle">DB・ファイル / 差分 / 世代管理 / cron</text>
+
+  <g fill="none" stroke="#2FA84F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M112 232 l6 5 l-6 5"/>
+    <path d="M124 232 l6 5 l-6 5"/>
+    <path d="M136 232 l6 5 l-6 5"/>
+  </g>
+</svg>
